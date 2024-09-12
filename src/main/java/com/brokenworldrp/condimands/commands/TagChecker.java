@@ -35,7 +35,7 @@ public class TagChecker implements CommandExecutor {
         String commandString = "";
 
         for (int i = 2; i < args.length; i++) {
-            commandString += args[i];
+            commandString += args[i] + " ";
         }
 
         try {
