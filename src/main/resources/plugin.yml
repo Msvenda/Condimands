@@ -1,0 +1,4 @@
+name: Condimands
+version: '${project.version}'
+main: com.brokenworldrp.condimands.Condimands
+api-version: '1.18'

@@ -1,0 +1,12 @@
+name: Condimands
+main: com.brokenworldrp.condimands.Condimands
+version: 1.0
+api-version: 1.18
+author: MX26
+description: "Conditional commands. Please refrigerate after opening."
+commands:
+  tagchecker:
+    description: "runs a command if the given player does not have the specified tag"
+    permission: condimands.tagchecker
+    permission-message: "You cannot use this command."
+    usage: "/tagchecker [player] [tag] [command]"
