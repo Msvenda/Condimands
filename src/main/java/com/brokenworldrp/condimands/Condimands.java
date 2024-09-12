@@ -9,7 +9,7 @@ public final class Condimands extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getPluginCommand("wipeTags").setExecutor(new WipeTagsCommand());
+        Bukkit.getPluginCommand("tagchecker").setExecutor(new WipeTagsCommand());
     }
 
     @Override
